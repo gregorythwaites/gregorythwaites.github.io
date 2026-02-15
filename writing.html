@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Writing — Gregory Thwaites</title>
+  <meta name="description" content="Blog posts, commentary and analysis by Gregory Thwaites from the Resolution Foundation, VoxEU, Substack and other outlets.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="container">
+      <a href="index.html" class="nav-brand">Gregory Thwaites</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="writing.html">Writing</a></li>
+        <li><a href="gregonomics.html">Gregonomics</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="page-header">
+    <div class="container">
+      <h1>Writing</h1>
+      <p>Commentary and analysis on the UK economy from the Resolution Foundation, VoxEU, Substack and other outlets.</p>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="container">
+
+      <!-- Subscribe callout -->
+      <!-- TODO: Update href below to your personal Substack URL when you have one -->
+      <div style="margin-bottom: 2.5rem; padding: 1.5rem; background: linear-gradient(135deg, #f0fdf4 0%, #f8fafc 100%); border: 1px solid #bbf7d0; border-radius: var(--radius-lg); display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem;">
+        <div>
+          <strong style="color: var(--color-ink);">Subscribe to my Substack</strong>
+          <p style="color: var(--color-text-light); font-size: 0.9rem; margin: 0;">Commentary on the UK economy, labour markets and economic policy.</p>
+        </div>
+        <a href="https://gregorythwaites.substack.com/" class="btn btn-primary" style="white-space: nowrap;">Subscribe</a>
+      </div>
+
+      <div class="writing-filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="rf-substack">Substack</button>
+        <button class="filter-btn" data-filter="rf">Resolution Foundation</button>
+        <button class="filter-btn" data-filter="voxeu">VoxEU</button>
+        <button class="filter-btn" data-filter="other">Other</button>
+      </div>
+
+      <ul class="writing-list" id="writing-list">
+      </ul>
+
+      <div style="margin-top: 3rem; padding: 2rem; background: var(--color-bg-alt); border-radius: var(--radius); text-align: center;">
+        <p style="color: var(--color-text-light); margin-bottom: 1rem;">For a full archive of Resolution Foundation publications:</p>
+        <a href="https://www.resolutionfoundation.org/about-us/team/greg-thwaites-2/" class="btn btn-outline" style="margin-right: 0.5rem;">Resolution Foundation profile</a>
+        <a href="https://voxeu.org/users/gregorythwaites0" class="btn btn-outline">VoxEU profile</a>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>Gregory Thwaites</h4>
+          <p>Research Director at the Resolution Foundation and Associate Professor at the University of Nottingham. Studying how the economy responds to structural change.</p>
+        </div>
+        <div>
+          <h4>Pages</h4>
+          <ul class="footer-links">
+            <li><a href="about.html">About</a></li>
+            <li><a href="research.html">Research</a></li>
+            <li><a href="writing.html">Writing</a></li>
+            <li><a href="gregonomics.html">Gregonomics</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Elsewhere</h4>
+          <ul class="footer-links">
+            <li><a href="https://scholar.google.co.uk/citations?user=mDO4fOoAAAAJ&hl=en">Google Scholar</a></li>
+            <li><a href="https://twitter.com/GregoryThwaites">Twitter / X</a></li>
+            <li><a href="https://www.linkedin.com/in/gregory-thwaites-44a7b977/">LinkedIn</a></li>
+            <li><a href="https://voxeu.org/users/gregorythwaites0">VoxEU</a></li>
+            <li><a href="https://www.resolutionfoundation.org/about-us/team/greg-thwaites-2/">Resolution Foundation</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Gregory Thwaites</span>
+        <div class="footer-social">
+          <a href="https://twitter.com/GregoryThwaites" aria-label="Twitter">@GregoryThwaites</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script>
+    // Writing entries — embedded so it works locally and on GitHub Pages.
+    // The GitHub Action updates data/writing.json; sync this list when deploying.
+    const writingData = [
+      {"title":"UK productivity grew more in the last year than in the previous seven combined","url":"https://resolutionfoundation.substack.com/p/uk-productivity-grew-more-in-the","date":"2026-02-06","source":"rf-substack","sourceName":"Resolution Foundation Substack"},
+      {"title":"Mountain climbing: Making progress on the UK\u2019s growth policy challenge","url":"https://www.resolutionfoundation.org/publications/mountain-climbing/","date":"2026-01-19","source":"rf","sourceName":"Resolution Foundation"},
+      {"title":"New Year Outlook 2026: Early and encouraging signs of a mild zombie apocalypse","url":"https://www.resolutionfoundation.org/publications/new-year-outlook-2026/","date":"2026-01-05","source":"rf","sourceName":"Resolution Foundation"},
+      {"title":"Stairway to headroom: Contextualising Autumn Budget 2025 decisions on tax, spending and borrowing","url":"https://www.resolutionfoundation.org/publications/stairway-to-headroom/","date":"2025-11-27","source":"rf","sourceName":"Resolution Foundation"},
+      {"title":"Trend setters: The OBR\u2019s forecast for trend productivity growth and its budgetary significance","url":"https://www.resolutionfoundation.org/publications/trend-setters/","date":"2025-10-14","source":"rf","sourceName":"Resolution Foundation"},
+      {"title":"Labour Market Outlook Q3 2025","url":"https://www.resolutionfoundation.org/publications/labour-market-outlook-q3-2025/","date":"2025-08-26","source":"rf","sourceName":"Resolution Foundation"},
+      {"title":"Ending Stagnation: A New Economic Strategy for Britain","url":"https://economy2030.resolutionfoundation.org/reports/ending-stagnation/","date":"2024-12-01","source":"rf","sourceName":"Economy 2030 Inquiry"},
+      {"title":"The impact of Covid-19 on productivity","url":"https://cepr.org/voxeu/columns/impact-covid-19-productivity","date":"2023-01-01","source":"voxeu","sourceName":"VoxEU / CEPR"},
+      {"title":"How has Covid-19 affected UK productivity?","url":"https://www.economicsobservatory.com/how-has-covid-19-affected-uk-productivity","date":"2021-06-01","source":"other","sourceName":"Economics Observatory"},
+      {"title":"Covid-19 uncertainty: A tale of two tails","url":"https://voxeu.org/article/covid-19-uncertainty-tale-two-tails","date":"2021-11-01","source":"voxeu","sourceName":"VoxEU / CEPR"},
+      {"title":"The future of pro-EU sentiment in the UK","url":"https://voxeu.org/article/future-pro-eu-sentiment-uk","date":"2019-01-01","source":"voxeu","sourceName":"VoxEU / CEPR"},
+      {"title":"Monopsony in the UK","url":"https://voxeu.org/article/monopsony-uk","date":"2018-01-01","source":"voxeu","sourceName":"VoxEU / CEPR"},
+      {"title":"Foreign booms, domestic busts: the global dimension of banking crises","url":"https://bankunderground.co.uk/2017/02/23/foreign-booms-domestic-busts-the-global-dimension-of-banking-crises/","date":"2017-02-23","source":"other","sourceName":"Bank Underground"},
+      {"title":"When banks say no","url":"https://bankunderground.co.uk/2016/02/16/when-banks-say-no/","date":"2016-02-16","source":"other","sourceName":"Bank Underground"}
+    ];
+
+    (function() {
+      const list = document.getElementById('writing-list');
+      if (!list) return;
+      const items = writingData.sort((a, b) => new Date(b.date) - new Date(a.date));
+      list.innerHTML = items.map(item => {
+        const d = new Date(item.date);
+        const dateStr = d.toLocaleDateString('en-GB', { month: 'short', year: 'numeric' });
+        return `<li class="writing-item" data-source="${item.source}">
+          <div class="writing-date">${dateStr}</div>
+          <div>
+            <div class="writing-title"><a href="${item.url}">${item.title}</a></div>
+            <div class="writing-source">${item.sourceName}</div>
+          </div>
+        </li>`;
+      }).join('');
+      // Bind filter buttons
+      document.querySelectorAll('.filter-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const filter = btn.dataset.filter;
+          document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          document.querySelectorAll('.writing-item').forEach(el => {
+            el.style.display = (filter === 'all' || el.dataset.source === filter) ? '' : 'none';
+          });
+        });
+      });
+    })();
+  </script>
+</body>
+</html>
