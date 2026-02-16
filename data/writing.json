@@ -7,7 +7,7 @@
     "sourceName": "Resolution Foundation Substack"
   },
   {
-    "title": "Mountain climbing: Making progress on the UK\u2019s growth policy challenge",
+    "title": "Mountain climbing: Making progress on the UK’s growth policy challenge",
     "url": "https://www.resolutionfoundation.org/publications/mountain-climbing/",
     "date": "2026-01-19",
     "source": "rf",
@@ -28,7 +28,7 @@
     "sourceName": "Resolution Foundation"
   },
   {
-    "title": "Trend setters: The OBR\u2019s forecast for trend productivity growth and its budgetary significance",
+    "title": "Trend setters: The OBR’s forecast for trend productivity growth and its budgetary significance",
     "url": "https://www.resolutionfoundation.org/publications/trend-setters/",
     "date": "2025-10-14",
     "source": "rf",
@@ -49,13 +49,6 @@
     "sourceName": "Economy 2030 Inquiry"
   },
   {
-    "title": "How has Covid-19 affected UK productivity?",
-    "url": "https://www.economicsobservatory.com/how-has-covid-19-affected-uk-productivity",
-    "date": "2021-06-01",
-    "source": "other",
-    "sourceName": "Economics Observatory"
-  },
-  {
     "title": "The impact of Covid-19 on productivity",
     "url": "https://cepr.org/voxeu/columns/impact-covid-19-productivity",
     "date": "2023-01-01",
@@ -68,6 +61,13 @@
     "date": "2021-11-01",
     "source": "voxeu",
     "sourceName": "VoxEU / CEPR"
+  },
+  {
+    "title": "How has Covid-19 affected UK productivity?",
+    "url": "https://www.economicsobservatory.com/how-has-covid-19-affected-uk-productivity",
+    "date": "2021-06-01",
+    "source": "other",
+    "sourceName": "Economics Observatory"
   },
   {
     "title": "The future of pro-EU sentiment in the UK",
