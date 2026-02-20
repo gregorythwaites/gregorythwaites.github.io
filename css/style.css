@@ -729,7 +729,7 @@ p:last-child { margin-bottom: 0; }
   margin-bottom: 0.6rem;
 }
 
-.paper-links { display: flex; gap: 0.6rem; flex-wrap: wrap; }
+.paper-links { display: flex; gap: 0.6rem; flex-wrap: wrap; align-items: center; }
 .paper-links a {
   font-size: 0.8rem;
   font-weight: 600;
@@ -743,6 +743,13 @@ p:last-child { margin-bottom: 0; }
 .paper-links a:hover {
   border-color: var(--color-accent);
   background: rgba(26,107,90,0.06);
+}
+
+.paper-summary {
+  margin-top: 0.6rem;
+  font-size: 0.9rem;
+  color: var(--color-text);
+  line-height: 1.55;
 }
 
 .paper-abstract {
